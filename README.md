@@ -11,15 +11,18 @@
 Academic Management Dashboard
 A feature-rich academic management system built with Next.js (App Router) that provides administrators and faculty members with tools to manage students, courses, grades, and generate reports.
 
+<br/>
 Dependencies: npm install axios apexcharts react-apexcharts json2csv
 npm install -D json-server
 First run: npm run mock-api, to serve the local Mock API db.json file.
 Then run: npm run dev
 
+<br/>
 UI/UX Considerations:
 • Used React + TailwindCSS.
 • Used React Query for state management.
 
+<br/>
 Technicals:
 • Used Next.js (16.0.10) & React (19.2.1).
 • API handled using Axios.
@@ -27,6 +30,7 @@ Technicals:
 • Implement pagination, search, and filtering done where required.
 • Used ApexCharts for analytics visualization such as bar chart 
 
+<br/>
 Key Implementation:
 String IDs: All id fields in db.json use strings (required by JSON Server)
 Consistent Data Fetching: Centralized API calls via apiClient.js
@@ -34,12 +38,15 @@ Real-time Updates: React Query cache invalidation ensures data consistency
 Responsive Design: Fully mobile-friendly with Tailwind CSS
 Error Handling: User-friendly alerts and console logging
 
+<br/>
 📁 Mock Data (db.json)
 Includes realistic academic data:
 5 students with GPA and enrollments
 4 courses with faculty assignments
 9 grade records with scores and progress
 Enrollment counts automatically synced
+
+<br/>
 
 src/
 ├── app/ # Next.js App Router pages
@@ -54,6 +61,7 @@ src/
 │ └── csvExporter.js # CSV export utilities
 └── components/ # Reusable UI components
 
+<br/>
 🚀 Features
 📊 Dashboard
 Summary cards (total students, courses, faculty)
