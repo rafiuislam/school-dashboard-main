@@ -1,4 +1,7 @@
 
+Academic Management Dashboard
+A feature-rich academic management system built with Next.js (App Router) that provides administrators and faculty members with tools to manage students, courses, grades, and generate reports.
+
 <img width="1918" height="918" alt="dashboard" src="https://github.com/user-attachments/assets/ad689379-5ebe-4112-a78c-eb92b6049728" />
 <img width="1919" height="923" alt="studentManagement" src="https://github.com/user-attachments/assets/65879b42-8223-4413-951f-29e50efaddb5" />
 <img width="1646" height="998" alt="studentDetails" src="https://github.com/user-attachments/assets/dfbc1313-48f5-413c-b7c9-b62649a0d944" />
@@ -7,9 +10,6 @@
 <img width="1653" height="855" alt="assignEnrollment" src="https://github.com/user-attachments/assets/534a0314-2397-449c-9c8b-5780da253f46" />
 <img width="1761" height="1006" alt="Top-PerformingStudents" src="https://github.com/user-attachments/assets/dce33d37-98d7-44a6-aa15-6e08b9d6a7db" />
 <img width="1652" height="806" alt="manageGrade" src="https://github.com/user-attachments/assets/d5d4a391-be3b-4a0a-a018-a0199272f2aa" />
-
-Academic Management Dashboard
-A feature-rich academic management system built with Next.js (App Router) that provides administrators and faculty members with tools to manage students, courses, grades, and generate reports.
 
 <br/>
 Dependencies: npm install axios apexcharts react-apexcharts json2csv
