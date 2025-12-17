@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* =====================
+   Base Theme Variables
+===================== */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* App background */
+  --bg-soft: #f7f8fa;
+
+  /* Lama color palette */
+  --l-sky: #c3ebfa;
+  --l-sky-light: #edf9fd;
+
+  --l-purple: #cfceff;
+  --l-purple-light: #f1f0ff;
+
+  --l-yellow: #fae27c;
+  --l-yellow-light: #fefce8;
+}
+
+/* =====================
+   Tailwind Theme Bridge
+===================== */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Soft background */
+  --color-bgSoft: var(--bg-soft);
+
+  /* Lama colors */
+  --color-lSky: var(--l-sky);
+  --color-lSkyLight: var(--l-sky-light);
+
+  --color-lPurple: var(--l-purple);
+  --color-lPurpleLight: var(--l-purple-light);
+
+  --color-lYellow: var(--l-yellow);
+  --color-lYellowLight: var(--l-yellow-light);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* =====================
+   Dark Mode
+===================== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    /* Optional dark soft bg */
+    --bg-soft: #111827;
+  }
+}
+
+/* =====================
+   Global Styles
+===================== */
+/* body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */

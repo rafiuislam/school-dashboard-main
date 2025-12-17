@@ -1,0 +1,212 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Rafiu Ahmed",
+      "email": "rafiu@example.com",
+      "gpa": 3.95,
+      "enrolledCourses": [
+        101,
+        102,
+        104
+      ],
+      "year": 2024
+    },
+    {
+      "id": "2",
+      "name": "Tasnim Rahman",
+      "email": "tasnim@example.com",
+      "gpa": 3.89,
+      "enrolledCourses": [
+        101,
+        103
+      ],
+      "year": 2023
+    },
+    {
+      "id": "3",
+      "name": "Karim Hossain",
+      "email": "karim@example.com",
+      "gpa": 3.92,
+      "enrolledCourses": [
+        102,
+        103,
+        104,
+        101
+      ],
+      "year": 2024
+    },
+    {
+      "id": "4",
+      "name": "Nusrat Jahan",
+      "email": "nusrat@example.com",
+      "gpa": 3.97,
+      "enrolledCourses": [
+        101,
+        103,
+        102
+      ],
+      "year": 2023
+    },
+    {
+      "id": "5",
+      "name": "Fahim Uddin",
+      "email": "fahim@example.com",
+      "gpa": 3.85,
+      "enrolledCourses": [
+        102,
+        101
+      ],
+      "year": 2024
+    }
+  ],
+  "courses": [
+    {
+      "id": "101",
+      "title": "Web Development",
+      "facultyId": "201",
+      "enrollmentCount": 5
+    },
+    {
+      "id": "102",
+      "title": "Data Structures",
+      "facultyId": "202",
+      "enrollmentCount": 4
+    },
+    {
+      "id": "103",
+      "title": "Machine Learning",
+      "facultyId": "203",
+      "enrollmentCount": 3
+    },
+    {
+      "id": "104",
+      "title": "Database Systems",
+      "facultyId": "201",
+      "enrollmentCount": 2
+    }
+  ],
+  "faculty": [
+    {
+      "id": "201",
+      "name": "Dr. Anika",
+      "department": "CSE"
+    },
+    {
+      "id": "202",
+      "name": "Prof. Rahman",
+      "department": "CSE"
+    },
+    {
+      "id": "203",
+      "name": "Dr. Laila",
+      "department": "AI"
+    }
+  ],
+  "grades": [
+    {
+      "studentId": "1",
+      "courseId": "101",
+      "score": 94,
+      "grade": "A",
+      "progress": 100,
+      "id": "c84f"
+    },
+    {
+      "studentId": "1",
+      "courseId": "102",
+      "score": 91,
+      "grade": "A-",
+      "progress": 100,
+      "id": "b5ae"
+    },
+    {
+      "studentId": "2",
+      "courseId": "101",
+      "score": 90,
+      "grade": "A-",
+      "progress": 100,
+      "id": "5405"
+    },
+    {
+      "studentId": "2",
+      "courseId": "103",
+      "score": 87,
+      "grade": "B",
+      "progress": 100,
+      "id": "b228"
+    },
+    {
+      "studentId": "3",
+      "courseId": "102",
+      "score": 92,
+      "grade": "A-",
+      "progress": 100,
+      "id": "caa7"
+    },
+    {
+      "studentId": "3",
+      "courseId": "103",
+      "score": 96,
+      "grade": "A",
+      "progress": 100,
+      "id": "6e82"
+    },
+    {
+      "studentId": "4",
+      "courseId": "101",
+      "score": 98,
+      "grade": "A+",
+      "progress": 100,
+      "id": "0f84"
+    },
+    {
+      "studentId": "4",
+      "courseId": "103",
+      "score": 95,
+      "grade": "A",
+      "progress": 100,
+      "id": "f25c"
+    },
+    {
+      "studentId": "5",
+      "courseId": "102",
+      "score": 85,
+      "grade": "B",
+      "progress": 100,
+      "id": "dc91"
+    },
+    {
+      "id": "7271",
+      "studentId": "3",
+      "courseId": "104",
+      "score": 88,
+      "grade": "B+",
+      "progress": 100
+    },
+    {
+      "id": "6454",
+      "studentId": "1",
+      "courseId": "104",
+      "score": 95,
+      "grade": "A",
+      "progress": 100
+    },
+    {
+      "id": "7aeb",
+      "studentId": "5",
+      "courseId": "101",
+      "score": 94,
+      "grade": "A",
+      "progress": 100
+    },
+    {
+      "id": "5211",
+      "studentId": "3",
+      "courseId": "101",
+      "score": 90,
+      "grade": "A-",
+      "progress": 100
+    }
+  ]
+}
