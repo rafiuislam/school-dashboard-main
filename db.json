@@ -55,7 +55,8 @@
       "gpa": 3.85,
       "enrolledCourses": [
         102,
-        101
+        101,
+        104
       ],
       "year": 2024
     }
@@ -83,7 +84,7 @@
       "id": "104",
       "title": "Database Systems",
       "facultyId": "201",
-      "enrollmentCount": 2
+      "enrollmentCount": 3
     }
   ],
   "faculty": [
@@ -105,106 +106,26 @@
   ],
   "grades": [
     {
+      "id": "7a19",
       "studentId": "1",
       "courseId": "101",
-      "score": 94,
-      "grade": "A",
-      "progress": 100,
-      "id": "c84f"
-    },
-    {
-      "studentId": "1",
-      "courseId": "102",
-      "score": 91,
-      "grade": "A-",
-      "progress": 100,
-      "id": "b5ae"
-    },
-    {
-      "studentId": "2",
-      "courseId": "101",
-      "score": 90,
-      "grade": "A-",
-      "progress": 100,
-      "id": "5405"
-    },
-    {
-      "studentId": "2",
-      "courseId": "103",
-      "score": 87,
-      "grade": "B",
-      "progress": 100,
-      "id": "b228"
-    },
-    {
-      "studentId": "3",
-      "courseId": "102",
-      "score": 92,
-      "grade": "A-",
-      "progress": 100,
-      "id": "caa7"
-    },
-    {
-      "studentId": "3",
-      "courseId": "103",
-      "score": 96,
-      "grade": "A",
-      "progress": 100,
-      "id": "6e82"
-    },
-    {
-      "studentId": "4",
-      "courseId": "101",
-      "score": 98,
+      "score": 97,
       "grade": "A+",
-      "progress": 100,
-      "id": "0f84"
+      "progress": 100
     },
     {
-      "studentId": "4",
-      "courseId": "103",
-      "score": 95,
-      "grade": "A",
-      "progress": 100,
-      "id": "f25c"
-    },
-    {
-      "studentId": "5",
+      "id": "025c",
+      "studentId": "1",
       "courseId": "102",
-      "score": 85,
-      "grade": "B",
-      "progress": 100,
-      "id": "dc91"
-    },
-    {
-      "id": "7271",
-      "studentId": "3",
-      "courseId": "104",
-      "score": 88,
+      "score": 87,
       "grade": "B+",
       "progress": 100
     },
     {
-      "id": "6454",
+      "id": "ebe3",
       "studentId": "1",
       "courseId": "104",
-      "score": 95,
-      "grade": "A",
-      "progress": 100
-    },
-    {
-      "id": "7aeb",
-      "studentId": "5",
-      "courseId": "101",
-      "score": 94,
-      "grade": "A",
-      "progress": 100
-    },
-    {
-      "id": "5211",
-      "studentId": "3",
-      "courseId": "101",
-      "score": 90,
+      "score": 92,
       "grade": "A-",
       "progress": 100
     }
