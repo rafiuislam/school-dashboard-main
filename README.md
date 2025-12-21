@@ -5,9 +5,10 @@ A feature-rich academic management system built with Next.js (App Router) that p
 <img width="1918" height="918" alt="dashboard" src="https://github.com/user-attachments/assets/ad689379-5ebe-4112-a78c-eb92b6049728" />
 
 <br/>
-Dependencies: npm install axios apexcharts react-apexcharts json2csv
+Incase of local deployement:
+Dependencies: npm install axios apexcharts react-apexcharts json2csv / npm i
 npm install -D json-server
-First run: npm run mock-api, to serve the local Mock API db.json file.
+First run: npm run mock-api, to serve the local Mock API db.json file. In the axios.js // use: "http://localhost:4000" as baseURL
 Then run: npm run dev
 
 <br/>
@@ -36,7 +37,7 @@ Error Handling: User-friendly alerts and console logging
 Includes realistic academic data:
 5 students with GPA and enrollments
 4 courses with faculty assignments
-9 grade records with scores and progress
+grade records with scores and progress
 Enrollment counts automatically synced
 
 <br/>
