@@ -12,6 +12,21 @@ First run: npm run mock-api, to serve the local Mock API db.json file. In the ax
 Then run: npm run dev
 
 <br/>
+
+src/
+├── app/ # Next.js App Router pages
+│ ├── page.js # Dashboard
+│ ├── students/ # Student management
+│ ├── courses/ # Course management  
+│ ├── faculty/ # Grade & enrollment panels
+│ └── reports/ # Analytics reports
+├── lib/
+│ ├── axios.js # API client
+│ ├── apiClient.js # Centralized data fetching
+│ └── csvExporter.js # CSV export utilities
+└── components/ # Reusable UI components
+
+<br/>
 UI/UX Considerations:
 • Used React + TailwindCSS.
 • Used React Query for state management.
@@ -40,20 +55,6 @@ Includes realistic academic data:
 grade records with scores and progress
 Enrollment counts automatically synced
 
-<br/>
-
-src/
-├── app/ # Next.js App Router pages
-│ ├── page.js # Dashboard
-│ ├── students/ # Student management
-│ ├── courses/ # Course management  
-│ ├── faculty/ # Grade & enrollment panels
-│ └── reports/ # Analytics reports
-├── lib/
-│ ├── axios.js # API client
-│ ├── apiClient.js # Centralized data fetching
-│ └── csvExporter.js # CSV export utilities
-└── components/ # Reusable UI components
 
 <br/>
 🚀 Features
